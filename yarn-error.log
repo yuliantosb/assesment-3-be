@@ -1,0 +1,66 @@
+Arguments: 
+  /Users/yulianto/.nvm/versions/node/v14.4.0/bin/node /Users/yulianto/.yarn/bin/yarn.js add sqlite3
+
+PATH: 
+  /Users/yulianto/.nvm/versions/node/v14.4.0/bin:/Users/yulianto/Library/Android/sdk/platform-tools:/Users/yulianto/Library/Android/sdk/tools:/Users/yulianto/go/bin:/usr/local/go/bin:/Users/yulianto/.yarn/bin:/Users/yulianto/.config/yarn/global/node_modules/.bin:/usr/local/mongodb/bin:/usr/local/opt/php/sbin:/usr/local/opt/php/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/opt/X11/bin:/Library/Apple/usr/bin:/Users/yulianto/.nvm/versions/node/v14.4.0/bin:/Users/yulianto/Library/Android/sdk/platform-tools:/Users/yulianto/Library/Android/sdk/tools:/Users/yulianto/go/bin:/Users/yulianto/.yarn/bin:/Users/yulianto/.config/yarn/global/node_modules/.bin:/usr/local/mongodb/bin:/usr/local/opt/php/sbin:/usr/local/opt/php/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/Users/yulianto/.composer/vendor/bin:/Users/yulianto/flutter/bin:/Users/yulianto/development/flutter/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/Users/yulianto/.composer/vendor/bin:/Users/yulianto/nodejs/perpustakaan-be/flutter/bin:/Users/yulianto/development/flutter/bin
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  14.4.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@adonisjs%2face: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (/Users/yulianto/.yarn/lib/cli.js:141354:19)
+      at Object.onceWrapper (events.js:421:28)
+      at ClientRequest.emit (events.js:315:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:768:9)
+      at Object.onceWrapper (events.js:421:28)
+      at TLSSocket.emit (events.js:327:22)
+      at TLSSocket.Socket._onTimeout (net.js:480:8)
+      at listOnTimeout (internal/timers.js:549:17)
+      at processTimers (internal/timers.js:492:7)
+
+npm manifest: 
+  {
+    "name": "adonis-api-app",
+    "version": "4.1.0",
+    "adonis-version": "4.1.0",
+    "description": "Adonisjs boilerplate for API server with pre-configured JWT",
+    "main": "index.js",
+    "scripts": {
+      "start": "node server.js",
+      "test": "node ace test"
+    },
+    "keywords": [
+      "adonisjs",
+      "adonis-app"
+    ],
+    "author": "",
+    "license": "UNLICENSED",
+    "private": true,
+    "dependencies": {
+      "@adonisjs/ace": "^5.0.8",
+      "@adonisjs/auth": "^3.0.7",
+      "@adonisjs/bodyparser": "^2.0.5",
+      "@adonisjs/cors": "^1.0.7",
+      "@adonisjs/fold": "^4.0.9",
+      "@adonisjs/framework": "^5.0.9",
+      "@adonisjs/ignitor": "^2.0.8",
+      "@adonisjs/lucid": "^6.1.3"
+    },
+    "devDependencies": {},
+    "autoload": {
+      "App": "./app"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
