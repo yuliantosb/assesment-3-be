@@ -18,7 +18,7 @@ class BukuController {
     }
 
     async index({request, response}) {
-        const buku = await Buku.all()
+        const buku = await Buku.query().with('pinjam').fetch()
         return response.status(200).json(buku)
     }
 

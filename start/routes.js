@@ -1,5 +1,7 @@
 'use strict'
 
+const { post } = require('@adonisjs/framework/src/Route/Manager')
+
 /*
 |--------------------------------------------------------------------------
 | Routes
@@ -25,3 +27,5 @@ Route.post('/buku', 'BukuController.store')
 Route.get('/buku/:id', 'BukuController.show')
 Route.post('/buku/:id', 'BukuController.update')
 Route.delete('/buku/:id', 'BukuController.delete')
+
+Route.post('/pinjam', 'PinjamController.store')
